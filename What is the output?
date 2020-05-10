@@ -1,0 +1,22 @@
+package javaHomework;
+
+public class Main {
+
+    public static void main(String[] args) {
+      
+      double[] exampleArray = {1,5,6,5,4,1}; // array with 6 element and index of 0-5
+        double maximum = exampleArray[0];
+      
+      int index = 0;
+        for(int i = 1; i<exampleArray.length; i++){ // int is equal 1; if i is less than the length of exampleArray (6); then increase i by one
+            if (exampleArray[i] > maximum) { // if the indes of exampleArray is greater than the maximun value then the maximun is equal to the index value of exampleArray
+                maximum = exampleArray[i];
+                index = i;
+            }
+        }
+        System.out.println(index);
+
+    }
+}
+
+//ouput: index (i) is 2 or the element 6 
