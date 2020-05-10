@@ -1,0 +1,17 @@
+//write a program to sum all the values of a given Array in java
+
+package javaHomework;
+
+public class Main {
+
+    public static void main(String[] args) {
+        int[] myNum = new int[]{5, 2, 8, 4, 9,};
+        int sum = 0;
+        int i;
+
+        for (i=0; i<myNum.length; i++){
+            sum = sum + myNum[i];
+        }
+            System.out.println(sum);
+    }
+}
