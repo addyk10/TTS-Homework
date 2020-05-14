@@ -1,0 +1,17 @@
+package javaHomework;
+
+public class Main {
+
+        public static void toPower (int size, int power){
+             System.out.println(Math.pow(size, power));
+
+        }
+        public static void main(String[] args) {
+            toPower(1, 2);
+            toPower(3, 4);
+            toPower(5, 2);
+
+        }
+
+        }
+
