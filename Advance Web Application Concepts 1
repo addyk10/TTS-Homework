@@ -1,0 +1,29 @@
+package WebAppPackage;
+
+public class MyClass {
+
+	static void caryear (int year) {
+		if (year < 2000) {
+			
+		throw new ArithmeticException ("Car is too old to drive");
+		}
+		else {
+			System.out.println ("You don't a new car!");
+		}
+	}
+	
+	public static class GenericMethod {
+		public static <W> colorofcar (W[] String)
+		for (W element : string) {
+			System.out.println (great color);
+			}
+	}
+	
+	interface Car {
+		
+		void Model();
+		void Make ();
+		void dealership();
+	}
+	
+}
